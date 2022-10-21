@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url(/assets/fonts/Lobster-Regular.ttf);
+}
+
+.header-image{
+    width: 100%;
+    height: 100vh;
+    filter: brightness(40%);
+}
+.header{
+    position: relative;
+}
+.header .logo-area .logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+.navigation{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+.navigation .navigation-link-area{
+    display: inline-block;    
+}
+.navigation .navigation-link-area .navigation-link{
+    color: white;
+    text-decoration: none;
+    font-family: MyFont;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.navigation .navigation-link-area .navigation-link:hover{
+    color: #DA9F5B
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 70px;
+}
+.left-arrow .fa-chevron-left{
+    
+    font-size: 30px;
+    color: rgb(138, 138, 138);
+}
+.left-arrow .fa-chevron-left:hover{
+    color: white;
+    cursor: pointer;
+}
+.header-text{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.header-text .header-text-up{
+    color: #DA9F5B;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+} 
+.header-text .header-text-center{
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+} 
+.header-text .header-text-down{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+} 
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 70px;
+}
+.right-arrow .fa-chevron-right{
+    color: rgb(138, 138, 138);
+    font-size: 30px;
+}
+.right-arrow .fa-chevron-right:hover{
+    color: white;
+    cursor: pointer;
+}
+.active{
+    color: #DA9F5B !important;
+}
